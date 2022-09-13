@@ -1,6 +1,7 @@
 # The same app, with different frameworks
 
 <img src="./app.png">
+
 From the [supabase nuxt module example](https://github.com/nuxt-modules/supabase/tree/main/demo)
 
 <hr>
