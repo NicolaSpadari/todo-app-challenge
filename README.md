@@ -26,7 +26,7 @@ From the [supabase nuxt module example](https://github.com/nuxt-modules/supabase
 
 - Svelte 3, Vite
 
-## Angular
+## Angular (WIP)
 
 - Angular 14
 
