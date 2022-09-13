@@ -1,0 +1,20 @@
+<div class="space-y-2 mt-15">
+    <div class="flex space-x-2">
+        <label class="flex-1 relative block py-3 px-5 border-2 border-gray-200 rounded-lg bg-white">
+            <input
+                class="w-full px-0 pb-0 text-lg border-none outline-none focus:ring-0"
+                id="name"
+                type="text"
+                placeholder="Type something"
+            />
+        </label>
+
+        <button type="button" class="py-3 px-5 text-lg font-medium text-dark-800 bg-white border border-white rounded-lg focus:outline-none focus:ring">
+            Add
+        </button>
+    </div>
+
+    <ul class="bg-white rounded-lg divide-y divide-y-gray-300 py-3 px-5">
+        <app-task-item *ngFor="let todo of todos"></app-task-item>
+    </ul>
+</div>
